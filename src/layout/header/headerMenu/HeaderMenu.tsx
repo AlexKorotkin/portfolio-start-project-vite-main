@@ -30,6 +30,11 @@ const StyledHeaderMenu =styled.nav`
         gap: 32px;
         justify-content: center;
     }
+    
+    @media ${theme.media.tablet} {
+        display: none;
+    }
+    
 `
 
 
